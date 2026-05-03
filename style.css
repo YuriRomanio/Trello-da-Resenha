@@ -454,3 +454,55 @@ body {
     height: 30%;
     width: 30%;
 }
+/* ====================== ESTILOS DA PÁGINA DE PASSIVOS ====================== */
+
+.hero-passivos {
+    background: linear-gradient(135deg, #2c1e3d, #1a1428);
+    padding: 110px 20px 80px;
+    text-align: center;
+    color: white;
+}
+
+.hero-passivos-title {
+    font-size: 3.4rem;
+    margin-bottom: 16px;
+}
+
+.hero-passivos-subtitle {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* Cards de Passivos */
+.passivos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.passivo-card {
+    background: #f8f9fa;
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    border-top: 5px solid #e74c3c;
+}
+
+.passivo-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(231, 76, 60, 0.15);
+}
+
+.passivo-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.passivo-card h3 {
+    color: #2c1e3d;
+    margin-bottom: 12px;
+}
