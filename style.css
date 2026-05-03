@@ -457,7 +457,7 @@ body {
 /* ====================== ESTILOS DA PÁGINA DE PASSIVOS ====================== */
 
 .hero-passivos {
-    background: linear-gradient(135deg, #2c1e3d, #1a1428);
+    background: rgba(15, 12, 41, 0.95)
     padding: 110px 20px 80px;
     text-align: center;
     color: white;
@@ -509,7 +509,7 @@ body {
 /* ====================== ESTILOS DA PÁGINA DE ATIVOS ====================== */
 
 .hero-ativos {
-    background: linear-gradient(135deg, #0f4c3a, #1a3c2f);
+    background: rgba(15, 12, 41, 0.95)
     padding: 110px 20px 80px;
     text-align: center;
     color: white;
